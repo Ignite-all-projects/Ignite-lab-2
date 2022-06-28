@@ -41,6 +41,8 @@ export const VideoContent = (props: VideoProps) => {
       }
     })
 
+    console.log(data, 'aaa')
+
     if (!data) {
       return (
       <div>Carregando...</div>
